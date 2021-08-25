@@ -1,0 +1,21 @@
+@mixin decoracion($fondo, $color, $tamano, $familia, $contenedor, $margen,) {
+    background-color: $fondo;
+    color: $color;
+    font-size: $tamano;
+    font-family: $familia;
+    padding: $contenedor;
+    margin: $margen;
+}
+.info__uno{
+    font-style: italic;
+    @include decoracion(black,khaki,27px,sans-serif ,15px ,15px )
+}
+.info__dos{
+    word-spacing: 3.5px;
+    @include decoracion(violet,black ,37px ,arial ,20px ,20px )
+}
+.info__tres{
+    display: flex;
+    flex-flow: column nowrap;
+    @include decoracion(rgb(78, 149, 197),rgb(218, 49, 218) ,16px ,arial ,10px ,15px )
+}
