@@ -40,46 +40,45 @@
             </div>
         </div>
     </nav>
-    
-        
-        <h1>Contactate con nosotros</h1>
-        <div class="seccion">
-            <form >
-                    <label for="nombre">Nombre</label><br>
-                    <input type="text" id="nombre" name="nombre" placeholder="Ejemplo" required><br>
-                    <label for="casilla">Email</label><br>
-                    <input type="email" id="casilla" name="casilla" placeholder="Alguien@hotmail.com" required><br>
-                    <label for="anios">Edad</label><br>
-                    <input type="number" id="anios" name="anios" required><br>
-        
-            <p>¿Que tipo de servicio buscabas?</p>
-                    <input type="checkbox" name="servicio" id="servicio"><label for="kapping">Kapping</label><br>
-                    <input type="checkbox" name="unas" id="unas"><label for="unas">Semi Uñas</label><br>
-                    <input type="checkbox" name="pies" id="pies"><label for="pies">Semi Pies</label> <br>
-                    <input type="checkbox" name="todos" id="todos"><label for="todos">Todos</label><br>
-
-            <p>¿En que dia queres un turno?</p>
-
-                    <input type="radio" name="dia" id="dia1" ><label for="dia1">Lunes</label><br>
-                    <input type="radio" name="dia" id="dia2" ><label for="dia2">Martes</label><br>
-                    <input type="radio" name="dia" id="dia3" ><label for="dia3">Miercoles</label><br>
-                    <input type="radio" name="dia" id="dia4" ><label for="dia4">jueves</label><br>
-                    <input type="radio" name="dia" id="dia5" ><label for="dia5">viernes</label><br>
-            
-                    <label for="pago">Con que medio abonarias el turno:</label><br>
-                    <select name="pago" id="pago"><br>
-                    <option ></option><br>
-                    <option >Efectivo</option><br>
-                    <option >Tarjeta</option><br>
-                    <option >Transferencia Bancaria</option><br>
-                    </select><br>
-
-                    <label for="texto">Queres saber algo mas?</label><br>
-                    <textarea  id="texto" placeholder="escriba aqui..."></textarea><br>
-                    <button type="submit">Enviar</button>
-                    <button type="reset">limpiar</button>
+    <main class="container">
+    <h1>Contactate con nosotros</h1>
+        <div class="col-12 col-md-12"></div>
+            <form>
+                <div class="form-floating mb-3">
+                    <input type="name" class="form-control" id="floatingInput" placeholder="Nombre">
+                    <label for="floatingInput">Nombre</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="alguien@hotmail.com">
+                    <label for="floatingInput">Correo electronico</label>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Numero de telefono</label>
+                    <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">Puedes dejar un numero de telefono si quieres que nos pongamos en contacto con usted.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Consulta o sugerencia.</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Deje aqui su consulto o sugerencia..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary boton">Enviar</button>
             </form>
+                <h2 class="fondo">Te dejamos una pregunta para que conocerlos un poco mas.</h2>
+                <form>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Que preferis usar a la hora de pagar?</option>
+                        <option value="1">Efectivo</option>
+                        <option value="2">Tarjeta</option>
+                        <option value="3">Deposito Bancario</option>
+                        <option value="4">Otro</option>
+                    </select>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Si pusiste otro dejanos abajo el metodo de pago que usas.</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Dejanos tu respuesta aqui..."></textarea>
+            </div>
         </div>
+        </form>
+    </main>
         <footer class="container_fluid bg-rosado">
             <div class="container border-bottom">
                 <div class="row">

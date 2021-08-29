@@ -190,4 +190,18 @@ div i{
 a{
     text-decoration: none;
 }
-
+/* contacto */
+form{
+    background-color: white;
+    display: flex;
+    flex-flow: column wrap;
+    margin: 15px;
+    border: 2px solid black;
+}
+.boton{
+    width: 100px;
+    background-color: mediumslateblue;
+}
+.fondo{
+    background-color: #c0fdff;
+}
