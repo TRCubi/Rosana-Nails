@@ -42,6 +42,7 @@ body {
   border: 2px solid black; }
   .ubicacion p {
     color: #7b2cbf;
+<<<<<<< HEAD
     font-size: 30px; }
 
 h1 {
@@ -99,6 +100,43 @@ h3 {
   background-color: #c0fdff;
   align-items: center; }
   .galeria p {
+=======
+    font-size: 20px;
+    font-family: serif;
+    line-height: 30px;
+    border-radius: 20px;
+}
+.parrafo1{
+    color: firebrick;
+
+}
+h3{
+    color: #ffb4a2;
+    font-size: 40px;
+    text-align: center;
+    word-spacing: 20px;
+}
+/* /Galeria/ */
+.carousel-inner img{
+    margin: auto;
+    border: 2px solid black;
+}
+.paraCliente{
+    background-color: #c0fdff;
+    color: #ffb4a2;
+}
+.galeria{
+    display: flex;
+    margin: 20px;
+    border: 2px solid black;
+    padding: 15px;
+    flex-flow: column nowrap;
+    flex: 1;
+    background-color: #c0fdff;
+    align-items: center;
+}
+.galeria p{
+>>>>>>> a38fffb427d76d7fae90b5e778e49a00b724de52
     color: #ffb4a2;
     font-size: 2rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
