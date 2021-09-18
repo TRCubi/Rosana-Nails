@@ -1,16 +1,11 @@
-body {
-    background-color:rgb(239, 246, 248);
-}
 .bg-celeste{
-    background-color: #c0fdff;
+    background-color: rgb(239, 246, 248);
 }
 .comienzo{
     display: block;
     padding: 10px;
-    margin: 15px;
-    p{
-        font-size: 30px;
-    }
+    margin: 2em;
+    
 }
 .cabeza{
     font-style: italic;
@@ -19,18 +14,13 @@ body {
 .conocimiento{
     display: block;
     padding: 10px;
-    margin: 15px;
-    p{
-        font-size: 30px;
-    }
+    margin:  2em  ;
+    
 }
 .ubicacion{
     display: block;
     padding: 15px;
-    margin: 15px;
-    p{
-        font-size: 30px;
-    }
+    margin: 2em;
 }
 h1{
     color: #ffa2ff;
@@ -52,12 +42,6 @@ h2{
     text-align: center;
     word-spacing: 20px;
 }
-p{
-    font-size: 20px;
-    font-family: serif;
-    line-height: 30px;
-    border-radius: 20px;
-}
 h3{
     color: #ffa2ff;
     font-size: 2rem;
@@ -67,9 +51,6 @@ h3{
 .carousel-inner img{
     margin: auto;
     border: 2px solid black;
-}
-.paraCliente{
-
 }
 .galeria{
     display: flex;
@@ -108,4 +89,10 @@ form{
 .boton{
     width: 100px;
     background-color: mediumslateblue;
+}
+p{
+    font-size: 2rem;
+    font-family: 'Crimson Text', serif;
+    line-height: 30px;
+    border-radius: 20px;
 }
