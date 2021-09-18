@@ -3,9 +3,7 @@
 }
 .comienzo{
     display: block;
-    padding: 10px;
-    margin: 2em;
-    
+    padding: 2%;
 }
 .cabeza{
     font-style: italic;
@@ -13,19 +11,19 @@
 }
 .conocimiento{
     display: block;
-    padding: 10px;
+    padding: 2%;
     margin:  2em  ;
     
 }
 .ubicacion{
     display: block;
-    padding: 15px;
+    padding: 2%;
     margin: 2em;
 }
 h1{
     color: #ffa2ff;
     display: block;
-    font-size: 3rem;
+    font-size: 2.6rem;
     text-align: center;
 }
 .tarjetaTitulo{
@@ -54,8 +52,8 @@ h3{
 }
 .galeria{
     display: flex;
-    margin: 20px;
-    padding: 15px;
+    margin: 2%;
+    padding: 2%;
     flex-flow: column nowrap;
     flex: 1;
     align-items: center;
@@ -84,14 +82,15 @@ form{
     background-color: white;
     display: flex;
     flex-flow: column wrap;
-    margin: 15px;
+    border: 2px solid black;
+    margin: 15%;
 }
 .boton{
     width: 100px;
     background-color: mediumslateblue;
 }
 p{
-    font-size: 2rem;
+    font-size: 1.4rem;
     font-family: 'Crimson Text', serif;
     line-height: 30px;
     border-radius: 20px;
